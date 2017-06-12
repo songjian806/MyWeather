@@ -1,0 +1,781 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linelayout_backgroung_more"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/blur_sun_day"
+     >
+      
+    <LinearLayout 
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical"
+        >
+        
+        <LinearLayout 
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        >
+        
+        <LinearLayout 
+            android:layout_height="50dp"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            >
+            <TextView 
+                android:layout_height="49dp"
+                android:layout_width="match_parent"
+                android:text="详细信息"
+                android:textColor="#9fff"
+                android:gravity="bottom"
+                />
+            <ImageView 
+                android:layout_height="1dp" 
+                android:layout_width="match_parent"
+                android:background="#5FFF"
+                />
+            
+        </LinearLayout>
+        
+        
+        <LinearLayout 
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        >
+            
+          <ImageView
+              android:id="@+id/iv_more_tianqi_tubiao" 
+              android:layout_height="match_parent"
+              android:layout_width="match_parent"
+              android:layout_weight="2"
+              android:src="@drawable/l_cloudy"
+              />  
+            <LinearLayout 
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                >
+                
+                <LinearLayout 
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    >
+                    <LinearLayout 
+                        android:layout_height="match_parent"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="horizontal"
+                        >
+                        
+                        <TextView 
+                            android:layout_height="match_parent"
+                            android:layout_width="match_parent"
+                            android:text="今日预报"
+                            android:textColor="#FFF"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical"
+                            />
+                         <TextView 
+                            android:id="@+id/tv_more_tianqi_top"
+                            android:layout_height="match_parent"
+                            android:layout_width="match_parent"
+                            android:text="xx"
+                            android:textColor="#FFF"
+                            android:layout_weight="1"
+                            android:gravity="right|center_vertical"
+                            />
+                        
+                    </LinearLayout>
+                    <ImageView 
+                        android:layout_height="3dp"
+                        android:layout_width="match_parent"
+                        android:src="@drawable/line_virtual"
+                        />
+                    
+                </LinearLayout>
+                <LinearLayout 
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    >
+                    <LinearLayout 
+                        android:layout_height="match_parent"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="horizontal"
+                        >
+                        
+                        <TextView 
+                            android:layout_height="match_parent"
+                            android:layout_width="match_parent"
+                            android:text="体感温度"
+                            android:textColor="#FFF"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical"
+                            />
+                         <TextView 
+                             android:id="@+id/tv_more_temparture"
+                            android:layout_height="match_parent"
+                            android:layout_width="match_parent"
+                            android:text="xx°"
+                            android:textColor="#FFF"
+                            android:layout_weight="1"
+                            android:gravity="right|center_vertical"
+                            />
+                        
+                    </LinearLayout>
+                    <ImageView 
+                        android:layout_height="3dp"
+                        android:layout_width="match_parent"
+                        android:src="@drawable/line_virtual"
+                        />
+                    
+                </LinearLayout>
+                <LinearLayout 
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    >
+                    <LinearLayout 
+                        android:layout_height="match_parent"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="horizontal"
+                        >
+                        
+                        <TextView 
+                            android:layout_height="match_parent"
+                            android:layout_width="match_parent"
+                            android:text="空气湿度"
+                            android:textColor="#FFF"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical"
+                            />
+                         <TextView 
+                            android:id="@+id/tv_more_info_shidu"
+                            android:layout_height="match_parent"
+                            android:layout_width="match_parent"
+                            android:text="xx%"
+                            android:textColor="#FFF"
+                            android:layout_weight="1"
+                            android:gravity="right|center_vertical"
+                            />
+                        
+                    </LinearLayout>
+                    <ImageView 
+                        android:layout_height="3dp"
+                        android:layout_width="match_parent"
+                        android:src="@drawable/line_virtual"
+                        />
+                    
+                </LinearLayout>
+                <LinearLayout 
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    >
+                    <LinearLayout 
+                        android:layout_height="match_parent"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="horizontal"
+                        >
+                        
+                        <TextView 
+                            android:layout_height="match_parent"
+                            android:layout_width="match_parent"
+                            android:text="风向风力"
+                            android:textColor="#FFF"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical"
+                            />
+                         <TextView 
+                             android:id="@+id/tv_more_wind_force"
+                            android:layout_height="match_parent"
+                            android:layout_width="match_parent"
+                            android:text="xx风xx级"
+                            android:textColor="#FFF"
+                            android:layout_weight="1"
+                            android:gravity="right|center_vertical"
+                            />
+                        
+                    </LinearLayout>
+                    <ImageView 
+                        android:layout_height="3dp"
+                        android:layout_width="match_parent"
+                        android:src="@drawable/line_virtual"
+                        />
+                    
+                </LinearLayout>
+                
+            </LinearLayout>
+        </LinearLayout>
+        
+    </LinearLayout>
+    
+        
+        <LinearLayout 
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        >
+         
+         <LinearLayout 
+            android:layout_height="50dp"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            >
+            
+             
+             <LinearLayout 
+                 android:layout_height="49dp"
+                 android:layout_width="match_parent"
+                 android:orientation="vertical"
+                 >
+                 <LinearLayout 
+                     android:layout_height="match_parent"
+                     android:layout_width="match_parent"
+                     android:layout_weight="1"
+                     ></LinearLayout>
+                   <LinearLayout 
+                     android:layout_height="match_parent"
+                     android:layout_width="match_parent"
+                     android:layout_weight="1"
+                     android:orientation="horizontal"
+                     >
+         
+                      <TextView 
+                        android:layout_height="match_parent"
+                        android:layout_width="match_parent"
+                        android:text="空气质量"
+                        android:textColor="#9fff"
+                        android:gravity="bottom"
+                        android:layout_weight="1"
+                       />  
+                       <TextView 
+                        android:id="@+id/tv_more_info_quality"
+                        android:layout_height="match_parent"
+                        android:layout_width="match_parent"
+                        android:text="xxx"
+                        android:textColor="#9fff"
+                        android:gravity="center_vertical|right"
+                        android:layout_weight="1"
+                       />
+                   </LinearLayout>
+                 
+             </LinearLayout>
+             
+             
+            
+            <ImageView 
+                android:layout_height="1dp" 
+                android:layout_width="match_parent"
+                android:background="#5FFF"
+                />
+            
+        </LinearLayout>
+            
+         <LinearLayout 
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                >
+            <LinearLayout 
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                
+                <LinearLayout 
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    >
+                    
+                    <LinearLayout 
+                        android:layout_height="match_parent"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="horizontal"
+                        >
+                        <TextView 
+                            android:layout_height="match_parent"
+                            android:layout_width="match_parent"
+                            android:layout_weight="1"
+                            android:text="PM2.5"
+                            android:textColor="#FFF"
+                            android:gravity="center_vertical"
+                            />
+                         <TextView 
+                            android:id="@+id/tv_more_pm25"
+                            android:layout_height="match_parent"
+                            android:layout_width="match_parent"
+                            android:layout_weight="1"
+                            android:text="xx"
+                            android:textColor="#FFF"
+                            android:gravity="center_vertical"
+                            />
+                    </LinearLayout>
+                    
+                    <TextView 
+                        android:layout_height="match_parent"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:text="入肺颗粒物"
+                        android:textColor="#6ddd"
+                        android:textSize="11dp"
+                        android:gravity="center_vertical|left"
+                        />
+                    
+                </LinearLayout>
+                <LinearLayout 
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    >
+                    
+                    <LinearLayout 
+                        android:layout_height="match_parent"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="horizontal"
+                        >
+                        <TextView 
+                            android:layout_height="match_parent"
+                            android:layout_width="match_parent"
+                            android:layout_weight="1"
+                            android:text="PM10"
+                            android:textColor="#FFF"
+                            android:gravity="center_vertical"
+                            />
+                         <TextView
+                            android:id="@+id/tv_more_pm10"
+                            android:layout_height="match_parent"
+                            android:layout_width="match_parent"
+                            android:layout_weight="1"
+                            android:text="xx"
+                            android:textColor="#FFF"
+                            android:gravity="center_vertical"
+                            />
+                    </LinearLayout>
+                    
+                    <TextView 
+                        android:layout_height="match_parent"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:text="可吸入颗粒物"
+                        android:textColor="#6ddd"
+                        android:textSize="11dp"
+                        android:gravity="center_vertical|left"
+                        />
+                    
+                </LinearLayout>
+                <LinearLayout 
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    >
+                    
+                    <LinearLayout 
+                        android:layout_height="match_parent"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="horizontal"
+                        >
+                        <TextView 
+                            android:layout_height="match_parent"
+                            android:layout_width="match_parent"
+                            android:layout_weight="1"
+                            android:text="SO2"
+                            android:textColor="#FFF"
+                            android:gravity="center_vertical"
+                            />
+                         <TextView 
+                            android:layout_height="match_parent"
+                            android:layout_width="match_parent"
+                            android:layout_weight="1"
+                            android:text="3"
+                            android:textColor="#FFF"
+                            android:gravity="center_vertical"
+                            />
+                    </LinearLayout>
+                    
+                    <TextView 
+                        android:layout_height="match_parent"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:text="二氧化硫"
+                        android:textColor="#6ddd"
+                        android:textSize="11dp"
+                        android:gravity="center_vertical|left"
+                        />
+                    
+                </LinearLayout>
+                
+            </LinearLayout> 
+             
+            <LinearLayout 
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                
+                <LinearLayout 
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    >
+                    
+                    <LinearLayout 
+                        android:layout_height="match_parent"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="horizontal"
+                        >
+                        <TextView 
+                            android:layout_height="match_parent"
+                            android:layout_width="match_parent"
+                            android:layout_weight="1"
+                            android:text="NO2"
+                            android:textColor="#FFF"
+                            android:gravity="center_vertical"
+                            />
+                         <TextView 
+                            android:layout_height="match_parent"
+                            android:layout_width="match_parent"
+                            android:layout_weight="1"
+                            android:text="14"
+                            android:textColor="#FFF"
+                            android:gravity="center_vertical"
+                            />
+                    </LinearLayout>
+                    
+                    <TextView 
+                        android:layout_height="match_parent"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:text="二氧化氮"
+                        android:textColor="#6ddd"
+                        android:textSize="11dp"
+                        android:gravity="center_vertical|left"
+                        />
+                    
+                </LinearLayout>
+                <LinearLayout 
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    >
+                    
+                    <LinearLayout 
+                        android:layout_height="match_parent"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="horizontal"
+                        >
+                        <TextView 
+                            android:layout_height="match_parent"
+                            android:layout_width="match_parent"
+                            android:layout_weight="1"
+                            android:text="O3"
+                            android:textColor="#FFF"
+                            android:gravity="center_vertical"
+                            />
+                         <TextView 
+                            android:layout_height="match_parent"
+                            android:layout_width="match_parent"
+                            android:layout_weight="1"
+                            android:text="28"
+                            android:textColor="#FFF"
+                            android:gravity="center_vertical"
+                            />
+                    </LinearLayout>
+                    
+                    <TextView 
+                        android:layout_height="match_parent"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:text="臭氧"
+                        android:textColor="#6ddd"
+                        android:textSize="11dp"
+                        android:gravity="center_vertical|left"
+                        />
+                    
+                </LinearLayout>
+                <LinearLayout 
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    >
+                    
+                    <LinearLayout 
+                        android:layout_height="match_parent"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="horizontal"
+                        >
+                        <TextView 
+                            android:layout_height="match_parent"
+                            android:layout_width="match_parent"
+                            android:layout_weight="1"
+                            android:text="CO"
+                            android:textColor="#FFF"
+                            android:gravity="center_vertical"
+                            />
+                         <TextView 
+                            android:layout_height="match_parent"
+                            android:layout_width="match_parent"
+                            android:layout_weight="1"
+                            android:text="14"
+                            android:textColor="#FFF"
+                            android:gravity="center_vertical"
+                            />
+                    </LinearLayout>
+                    
+                    <TextView 
+                        android:layout_height="match_parent"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:text="一氧化氮"
+                        android:textColor="#6ddd"
+                        android:textSize="11dp"
+                        android:gravity="center_vertical|left"
+                        />
+                    
+                </LinearLayout>
+                
+            </LinearLayout> 
+            
+             
+         </LinearLayout>   
+         
+         
+        </LinearLayout>
+        
+      <LinearLayout 
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+       >
+          
+          
+          <LinearLayout 
+            android:layout_height="50dp"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            >
+            <TextView 
+                android:layout_height="49dp"
+                android:layout_width="match_parent"
+                android:text="生活指数"
+                android:textColor="#9fff"
+                android:gravity="bottom"
+                />
+            <ImageView 
+                android:layout_height="1dp" 
+                android:layout_width="match_parent"
+                android:background="#5FFF"
+                />
+            
+            
+            
+            
+            
+            
+            
+            
+        </LinearLayout>
+          
+         <LinearLayout 
+           android:layout_height="match_parent"
+           android:layout_width="match_parent"
+           android:layout_weight="1"
+           android:orientation="vertical"
+          >
+            <LinearLayout 
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                
+                <ImageView 
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:layout_weight="5"
+                    android:src="@drawable/index_item_dress_icon"
+                    />
+                
+                <LinearLayout 
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    >
+                    
+                    <LinearLayout 
+                        android:layout_height="match_parent"
+                        android:layout_width="match_parent"
+                        android:orientation="horizontal"
+                        android:layout_weight="1"
+                        >
+                        
+                        <LinearLayout 
+                            android:layout_height="match_parent"
+                            android:layout_width="match_parent"
+                            android:layout_weight="1"
+                            android:orientation="vertical"
+                            >
+                            
+                            <TextView 
+                                android:id="@+id/tv_more_chuanyi"
+                                android:layout_height="match_parent"
+                                android:layout_width="match_parent"
+                                android:layout_weight="1"
+                                android:text="xx"
+                                android:textColor="#FFF"
+                                android:gravity="bottom"
+                                />
+                            
+                              <TextView
+                                  android:id="@+id/tv_more_chuanyimore" 
+                                android:layout_height="match_parent"
+                                android:layout_width="match_parent"
+                                android:layout_weight="1"
+                                android:text="xxxxxxxxxxx"
+                                android:textColor="#FFF"
+                                android:textSize="8dp"
+                                android:gravity="center_vertical"
+                                />
+                            
+                        </LinearLayout>
+                        
+                        <TextView 
+                            android:layout_height="match_parent"
+                            android:layout_width="match_parent"
+                            android:layout_weight="2"
+                            android:text="[穿衣指数]"
+                            android:gravity="center_vertical|right"
+                            />
+                        
+                    </LinearLayout>
+                    <ImageView 
+                        android:layout_height="3dp"
+                        android:layout_width="match_parent"
+                        android:src="@drawable/line_virtual"
+                        />
+                </LinearLayout>
+                
+            </LinearLayout> 
+             <LinearLayout 
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                
+                <ImageView 
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:layout_weight="5"
+                    android:src="@drawable/index_item_sports_icon"
+                    />
+                
+                <LinearLayout 
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    >
+                    
+                    <LinearLayout 
+                        android:layout_height="match_parent"
+                        android:layout_width="match_parent"
+                        android:orientation="horizontal"
+                        android:layout_weight="1"
+                        >
+                        
+                        <LinearLayout 
+                            android:layout_height="match_parent"
+                            android:layout_width="match_parent"
+                            android:layout_weight="1"
+                            android:orientation="vertical"
+                            >
+                            
+                            <TextView 
+                                android:id="@+id/tv_more_yundong"
+                                android:layout_height="match_parent"
+                                android:layout_width="match_parent"
+                                android:layout_weight="1"
+                                android:text="xx"
+                                android:textColor="#FFF"
+                                android:gravity="bottom"
+                                />
+                            
+                              <TextView
+                                  android:id="@+id/tv_more_yundongmore" 
+                                android:layout_height="match_parent"
+                                android:layout_width="match_parent"
+                                android:layout_weight="1"
+                                android:text="xxxxxxxxxxxxxxxxx"
+                                android:textColor="#FFF"
+                                android:textSize="8dp"
+                                android:gravity="center_vertical"
+                                />
+                            
+                        </LinearLayout>
+                        
+                        <TextView 
+                            android:layout_height="match_parent"
+                            android:layout_width="match_parent"
+                            android:layout_weight="2"
+                            android:text="[运动指数]"
+                            android:gravity="center_vertical|right"
+                            />
+                        
+                    </LinearLayout>
+                    <ImageView 
+                        android:layout_height="3dp"
+                        android:layout_width="match_parent"
+                        android:src="@drawable/line_virtual"
+                        />
+                </LinearLayout>
+                
+            </LinearLayout> 
+         </LinearLayout> 
+          
+      </LinearLayout>
+        
+    </LinearLayout>
+    
+    
+    
+    
+    
+    
+
+</LinearLayout>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFF"
+    >
+    
+	<LinearLayout 
+	    android:layout_height="40dp"
+	    android:layout_width="match_parent"
+	    android:orientation="horizontal"
+	    android:background="#ddd"
+	    android:gravity="center_vertical"
+	    >
+	    	    
+	    <LinearLayout 
+	        android:layout_height="wrap_content"
+	        android:layout_width="match_parent"
+	        android:layout_weight="1"
+	        android:orientation="horizontal"
+	        android:layout_margin="5dp"
+	        android:background="#FFF"
+	        >
+	        <ImageView
+	            android:id="@+id/iv_addcity_search" 
+	            android:layout_height="match_parent"
+	            android:layout_width="20dp"
+	            android:src="@drawable/search"
+	            android:layout_marginLeft="10dp"
+	            />
+	        <EditText
+	            android:id="@+id/et_add_city_search" 
+	            android:layout_height="match_parent"
+	            android:layout_width="200dp"
+	            android:hint="城市名称中文"
+	            android:background="#FFF"
+	            android:layout_marginLeft="10dp"
+	        />
+	        
+	    </LinearLayout>
+	    
+	    
+	    <TextView 
+	        android:id="@+id/tv_addcity_cancle"
+	        android:layout_height="wrap_content"
+	        android:layout_width="match_parent"
+	        android:layout_weight="4"
+	        android:text="取消"
+	        android:textColor="#03d"
+	        android:textSize="16dp"
+	        android:gravity="center"
+	        />
+	</LinearLayout>
+    
+    <LinearLayout 
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+       
+        >
+        
+        <TextView 
+            android:layout_height="40dp"
+            android:layout_width="match_parent"
+            android:text="热门城市"
+            android:gravity="bottom|left"
+            />
+        
+        <ImageView 
+            android:layout_height="1dp" 
+            android:layout_width="match_parent"
+            android:background="#7777"
+            />
+        <LinearLayout 
+            android:layout_height="40dp"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            >
+            <Button 
+                android:layout_height="40dp"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="自动定位"
+                android:textColor="#000"
+                android:layout_marginLeft="20dp"
+                android:gravity="center"
+                />
+        </LinearLayout>
+		<GridView 
+		    android:id="@+id/gridview"
+		    android:layout_height="match_parent"
+		    android:layout_width="match_parent"
+		    android:numColumns="4"
+		    android:verticalSpacing="24dp"
+		    android:layout_marginTop="20dp"
+		    ></GridView>
+        
+    </LinearLayout>
+    
+</LinearLayout>
